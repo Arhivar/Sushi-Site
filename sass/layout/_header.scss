@@ -1,0 +1,33 @@
+.page-header_container {
+ display: flex;
+ justify-content: space-between;
+}
+
+.page-header_navigation-list{
+    display: flex;
+    column-gap: 30px;
+}
+.page-header_contact{
+    display: flex;
+    column-gap: 20px;
+}
+
+.page-header{
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+.logo_cont{
+    width: 100px;
+    background-color: aqua;
+    height: 20px;
+}
+.nav{
+    display: flex;
+    gap: 160px;
+}
+.page-header_cart-link{
+    width: 10px;
+    height: 6px;
+    border-radius: 1px;
+    background-color: black;
+}

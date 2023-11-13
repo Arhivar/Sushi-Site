@@ -1,0 +1,51 @@
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: black;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+    .active,
+    &:hover {
+      background-color: blue;
+    }
+  }
+.page-main_review{
+    background-color: #71d7e994;
+    margin-bottom: 30px;
+}
+.page-main_review-page{
+    margin-bottom: 20px;
+    text-align: center;
+}
+.page-main_review-header{
+    text-align: center;
+}
+.page-main_review-text{
+    text-align: center;
+    font-size: 16px;
+    line-height: 2.6;
+}
+.page-main_review-box{
+    display: flex;
+    justify-content: center;
+}
+
+.page-main_review-text_box {
+    margin-right: auto;
+    margin-left: auto;
+    width: 968px;
+    height: 138px;
+    padding-top: 39px;
+    padding-bottom: 47px;
+    padding-left: 109px;
+    padding-right: 109px;
+    background-color: gray;
+    margin-bottom: 20px;
+  }
+.page-main_review-box_page{
+    text-align: center;
+    margin-bottom: 20px;
+}
